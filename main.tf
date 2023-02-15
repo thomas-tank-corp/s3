@@ -19,7 +19,7 @@ provider "aws" {
 module "aws_s3" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "new-test-humanitec-2340"
+  bucket = "new-test-humanitec-23409832489734"
   acl    = "private"
 }
 
